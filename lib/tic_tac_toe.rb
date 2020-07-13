@@ -24,10 +24,12 @@ class TicTacToe
   end
 
   def position_taken?(i)
-    if @board[i] = "X" || "O"
-       return true
-
-    end
+  #  if @board[i] = "X" || "O"
+  #     return true
+  #   else 
+  #     false
+  #  end
+   @board[index] != " "
   end
 
 
