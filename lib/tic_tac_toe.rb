@@ -49,10 +49,7 @@ end
   end
 
   def current_player
-   if turn_count.even?
-      puts "X"
-    else
-      puts "O"
+ turn_count.even? ? "X" : "O"
 
     end
   end
