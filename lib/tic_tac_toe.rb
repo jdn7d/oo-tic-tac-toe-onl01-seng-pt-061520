@@ -45,7 +45,7 @@ end
   end
 
   def turn_count
-@board.count{|square| square != " "}
+  @board.count{|spot| spot != " "}
   end
 
 end
