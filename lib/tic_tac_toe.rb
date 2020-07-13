@@ -38,7 +38,8 @@ class TicTacToe
   def valid_move?(i)
     if position_taken?(i) == false
       return true
-
+    else 
+      false
     end
   end
 
