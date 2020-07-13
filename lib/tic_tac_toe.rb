@@ -64,7 +64,6 @@ end
        end
        display_board
      end
-  end
-end
+
 
 end
