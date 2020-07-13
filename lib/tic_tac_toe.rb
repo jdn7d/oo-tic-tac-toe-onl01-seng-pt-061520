@@ -55,10 +55,10 @@ end
   def turn
        puts "Input a number (1-9):"
        input = gets.strip
-       index = input_to_index(input)
-       if valid_move?(index)
+       i = input_to_index(i)
+       if valid_move?(i)
 
-         move(index, current_player)
+         move(i, current_player)
        else
          turn
        end
@@ -74,11 +74,11 @@ end
    end
 
    def full?
-     @board.all?{|square| square != " " }
+     @board.all?{|box| box != " " }
    end
 
    def draw?
-     full? && !won?
+    !won? && full?
    end
 
    def over?
