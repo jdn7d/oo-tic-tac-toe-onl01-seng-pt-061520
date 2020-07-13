@@ -20,7 +20,7 @@ class TicTacToe
   end
 
   def input_to_index(input)
-    input.to_integer
+    input.to_str
   end
 
   def position_taken?
