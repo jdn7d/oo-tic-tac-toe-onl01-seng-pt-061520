@@ -48,4 +48,13 @@ end
   @board.count{|spot| spot != " "}
   end
 
+  def current_player
+    if turn_count.even? 
+      puts "X"
+    else 
+      puts "O"
+
+    end
+  end
+
 end
