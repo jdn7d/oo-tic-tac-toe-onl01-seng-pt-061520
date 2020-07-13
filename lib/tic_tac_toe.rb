@@ -19,8 +19,8 @@ class TicTacToe
     token = @board[i-1]
   end
 
-  def input_to_index(inpute)
-
+  def input_to_index(input)
+    input.to_integer 
   end
 
   def position_taken?
