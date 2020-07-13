@@ -29,7 +29,7 @@ class TicTacToe
   #   else
   #     false
   #  end
-  if  @board[index] != " "
+  if  @board[i] != " "
     true
   else
     false
